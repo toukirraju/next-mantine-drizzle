@@ -96,7 +96,7 @@ add script on `package.json`
 ```json
 
 {
-    "script:{
+    "script":{
 
     {/* default script here */}
     "drizzle:generate": "drizzle-kit generate",
