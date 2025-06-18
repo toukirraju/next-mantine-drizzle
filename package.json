@@ -6,7 +6,12 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "drizzle:generate": "drizzle-kit generate",
+    "drizzle:migrate": "drizzle-kit migrate",
+    "drizzle:up": "npm run drizzle:generate && npm run drizzle:migrate",
+    "drizzle:check": "drizzle-kit check",
+    "drizzle:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@mantine/core": "^8.0.0",
