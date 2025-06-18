@@ -2,13 +2,19 @@
 # next-drizzle installation
 
 ```bash
-yarn add dotenv drizzle-orm jsonwebtoken next-auth pg bcryptjs -D @types/jsonwebtoken @types/pg drizzle-kit
+yarn add dotenv drizzle-orm jsonwebtoken next-auth pg bcryptjs
+```
+```bash
+yarn add -D @types/jsonwebtoken @types/pg drizzle-kit
 ```
 or
 <br/>
 
 ```bash
-npm install dotenv drizzle-orm jsonwebtoken next-auth pg bcryptjs -D @types/jsonwebtoken @types/pg drizzle-kit
+npm install dotenv drizzle-orm jsonwebtoken next-auth pg bcryptjs 
+```
+```bash
+npm install -D @types/jsonwebtoken @types/pg drizzle-kit
 ```
 
 ## setp-1
